@@ -1,0 +1,61 @@
+se primeiro jogou igual segundo:
+    empate
+senao se primeiro jogou pedra e segundo jogou tesoura
+    ou primeiro jogou tesoura e segundo jogou papel
+    ou  primeiro jogou papel e segundo jogou pedra:
+    primeiro ganhou
+senao
+    segundo ganhou
+
+_________
+jog1: 0 - 10
+jog2: 0 - 10
+opcao1: par ou impar
+saida: jog1 ou jog2
+
+>>>>>>>>
+4
+3
+impar
+========
+jog1
+<<<<<<<<
+
+>>>>>>>>
+0
+3
+par
+========
+jog2
+<<<<<<<<
+
+
+
+
+
+
+
+>>>>>>
+pedra
+tesoura
+======
+primeiro
+<<<<<<
+
+>>>>>>
+pedra
+pedra
+======
+empate
+<<<<<<
+
+>>>>>>
+tesoura
+pedra
+======
+segundo
+<<<<<<
+
+Linguagem de Programação
+- C, Python, Java, C++, C#, Ruby, Javascript, ...
+- C(SI, CC, EC, ES) Python(DD, RC)
