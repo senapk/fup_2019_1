@@ -1,0 +1,27 @@
+- [ ] básico
+    - [ ] apresentação da linguagem
+    - [ ] leitura da apostila do pplware
+    - [ ] configuração do ambiente e ide online(repl.it)
+    - [ ] comandos básicos do linux
+- [ ] compilação
+    - [ ] compilar no terminal com gcc
+    - [ ] utilizar os parâmetros como -lm -Wall -std=c11
+    - [ ] criar um makefile e compilar utilizando make
+    - [ ] compreender código fonte, bibliotecas externas
+    - [ ] abrindo, visualizando e compilando no vscode
+- [ ] operações
+    - [ ] fazer leitura de dados
+        - [ ] int, float, char
+        - [ ] strings
+    - [ ] fazer print formatado
+        - [ ] controle de casas decimais
+        - [ ] controle de zeros à esquerda
+    - [ ] uso do operador de módulo para controle de loops
+- [ ] seleção
+    - [ ] ifs e elses
+    - [ ] and e or
+    - [ ] busca intervalada (imc)
+    - [ ] estratégia de deixar sempre um else para o caso mais difícil(jokenpo)
+- [ ] bibliotecas externas e funções
+    - [ ] desenho com xpaint
+

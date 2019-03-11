@@ -6,6 +6,7 @@ int main(){
     x_open(largura, altura); 
     /* escreve usando a font default na posicao x=50, y=30 */
     /* utilizando o mesmo formato do printf */
+    
     x_clear(GREEN);
     xs_color(BLACK);
     xd_ellipse(230, 270, 260, 340);

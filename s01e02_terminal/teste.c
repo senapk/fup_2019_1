@@ -16,7 +16,7 @@ int main(){
 
     puts("Digite dia e mes de nascimento");
     scanf("%d %d", &dia, &mes);
-    printf("blabla %d/%d", dia, mes);
+    printf("É muito bom nascer no dia %02d/%02d\n", dia, mes);
 }
 
 
