@@ -1,5 +1,13 @@
 # Fup David Sena 2019.1
 
+## Links
+- [ZAP](https://chat.whatsapp.com/Dap5w1KzF3HAQPzk22FDOK)
+- [Planilha de Pontos](https://docs.google.com/spreadsheets/d/1p15OZdETdcwFwGUB1vCrJGyCg3puczo9xeSQD4xW0qA/edit?usp=sharing)
+- [Moodle](moodle.quixada.ufc.br)
+- [Playlist Youtube](https://www.youtube.com/watch?v=JmLub7HcTNU&list=PLqwyjBSVOHRyaq1DAKJkuKf2GKWfJD1b1)
+- [Compilador Online](repl.it)
+##
+
 - Atividades
 - conseguir acesso ao si3
     - colocar foto
