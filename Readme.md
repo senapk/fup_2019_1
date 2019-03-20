@@ -1,13 +1,16 @@
 # Fup David Sena 2019.1
 
 ## Links
+
+- [Apostila]
+    - s00e00 Pplware. Leia!
 - [ZAP](https://chat.whatsapp.com/Dap5w1KzF3HAQPzk22FDOK)
     - Entre no grupo do zap para tirar dúvidas sobre a disciplina
 - [Planilha de Pontos](https://docs.google.com/spreadsheets/d/1p15OZdETdcwFwGUB1vCrJGyCg3puczo9xeSQD4xW0qA/edit?usp=sharing)
     - Anote a sua pontuação no Curso do Moodle Semana a Semana
-- [Moodle](moodle.quixada.ufc.br)
+- [Moodle](https://moodle.quixada.ufc.br)
     - Crie sua conta no Moodle
-    - Procure o curso "Fup is Fun"
+    - Procure o curso ["Fup is Fun"](https://moodle.quixada.ufc.br/course/view.php?id=344)
     - Entre no curso e começe a fazer os exercícios
 - [Playlist Youtube](https://www.youtube.com/watch?v=JmLub7HcTNU&list=PLqwyjBSVOHRyaq1DAKJkuKf2GKWfJD1b1)
     - Playlist do youtube com todas as aulas da disciplina
