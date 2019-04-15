@@ -6,80 +6,77 @@
 - [x] compilação
     - [x] compilar no terminal com gcc
     - [x] utilizar os parâmetros como -lm -Wall -std=c11
-    - [ ] criar um makefile e compilar utilizando make
+    - [x] criar um makefile e compilar utilizando make
     - [x] compreender código fonte, bibliotecas externas
     - [x] abrindo, visualizando e compilando no vscode
-- [ ] técnicas de programação
-    - [ ] utilização de debug
+- [x] técnicas de programação
+    - [x] utilização de debug
 - [ ] boas práticas mínimas
-    - [ ] inicialize todas as variáveis que criar
-    - [ ] sempre idente corretamente
-    - [ ] escolha variáveis e funções com nomes descritivos
-    - [ ] funções devem ter nomes que representam ações
+    - [x] inicialize todas as variáveis que criar
+    - [x] sempre idente corretamente
+    - [x] escolha variáveis e funções com nomes descritivos
+    - [x] funções devem ter nomes que representam ações
 - [ ] tipos de dados 
     - [x] fazer leitura de dados
         - [x] int, float, char
         - [x] bool (stdbool.h)
-            - [ ] representação de booleano com inteiro
+            - [x] representação de booleano com inteiro
         - [ ] structs
         - [ ] enum
         - [ ] ponteiros
         - [ ] char
             - [ ] apresentação da tabela asc
         - [ ] strings
-    - [ ] utilizando typedef para mostrar o tamanho dos elementos em bytes
-- [ ] entrada e saída
+    - [x] utilizando typedef para mostrar o tamanho dos elementos em bytes
+- [x] entrada e saída
     - [x] fazer print formatado
         - [x] controle de casas decimais
         - [x] controle de zeros à esquerda
-- [ ] operações básicas
-    - [ ] biblioteca math.h
-        - [ ] uso do -lm no gcc
-        - [ ] sqrt, pow
-        - [ ] floor, round, ceil
+- [x] operações básicas
+    - [x] biblioteca math.h
+        - [x] uso do -lm no gcc
+        - [x] sqrt, pow
+        - [x] floor, round, ceil
     - [x] uso do operador de módulo para controle de loops
-        - [ ] remoção de loops e correção de negativos (questão: cabeça da cobra)
-    - [ ] uso de módulo e divisão para decompor inteiros (spock palindromo)
+        - [x] remoção de loops e correção de negativos (questão: cabeça da cobra)
+    - [x] uso de módulo e divisão para decompor inteiros (spock palindromo)
 - [ ] seleção
     - [x] `if` e `else`
-    - [ ] operador ternário
+    - [x] operador ternário
     - [x] operadores booleanos
     - [x] busca intervalada (imc)
     - [x] estratégia de deixar sempre um else para o caso mais difícil (jokenpo)
     - [ ] operação modular com deslocamento de intervalo (zerim americano, soma char)
 - [x] bibliotecas externas e funções
     - [x] desenho com xpaint
-- [ ] repetição
-    - [ ] estruturas
-        - [ ] `while`
-        - [ ] `do while`
-        - [ ] `for`
-    - [ ] técnicas
-        - [ ] `for` com mais de uma variável e com diferentes incrementos (jogo concentração)
-        - [ ] técnicas de busca e contagem
-        - [ ] técnica do booleano de controle (é primo)
+- [x] repetição
+    - [x] estruturas
+        - [x] `while`
+        - [x] `do while`
+        - [x] `for`
+    - [x] técnicas
+        - [x] `for` com mais de uma variável e com diferentes incrementos (jogo concentração)
+        - [x] técnicas de busca e contagem
+        - [x] técnica do booleano de controle (é primo)
 - [ ] funções
-    - [ ] entendimento de parâmetros e tipo de retorno
-    - [ ] visualização da pilha de execução e dos saltos entre funções usando debug
-    - [ ] uso de protótipos
-    - [ ] use preferencialmente funções puras (sem variáveis globais)
+    - [x] entendimento de parâmetros e tipo de retorno
+    - [X] visualização da pilha de execução e dos saltos entre funções usando debug
+    - [x] uso de protótipos
+    - [x] use preferencialmente funções puras (sem variáveis globais)
     - [ ] passagem de parâmetro por cópia e endereço (vetores e ponteiros)
-- [ ] geração de números aleatórios
-    - [ ] uso da biblioteca stdlib.h e time.h
-    - [ ] compreensão do uso da semente do srand()
-    - [ ] função para gerar um número dentro de um intervalo
-- [ ] vetores
-    - [ ] formas de inicialização de um vetor
-        - [ ] 
-    - [ ] cálculo automático do tamanho do vetor utilizando typedef
-    - [ ] funções básicas sobre vetores
-        - [ ] encontrar mínimo em intervalo
-        - [ ] encontrar posição (valor ou mínimo)
-        - [ ] contar ocorrências em intervalo
+- [x] geração de números aleatórios
+    - [x] uso da biblioteca stdlib.h e time.h
+    - [x] compreensão do uso da semente do srand()
+    - [x] função para gerar um número dentro de um intervalo
+- [x] vetores
+    - [x] formas de inicialização de um vetor
+    - [x] cálculo automático do tamanho do vetor utilizando typedef
+    - [x] funções básicas sobre vetores
+        - [x] encontrar mínimo em intervalo
+        - [x] encontrar posição (valor ou mínimo)
+        - [x] contar ocorrências em intervalo
     - [ ] técnicas
-        - [ ] ordenação
+        - [x] ordenação
         - [ ] vetor auxiliar para filtrar elementos
         - [ ] vetor auxiliar para marcação de ocorrências 
         - [ ] vetor auxiliar para contagem de ocorrências
-
-
