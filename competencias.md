@@ -77,6 +77,9 @@
         - [x] contar ocorrências em intervalo
     - [ ] técnicas
         - [x] ordenação
+        - [ ] busca binária
         - [ ] vetor auxiliar para filtrar elementos
         - [ ] vetor auxiliar para marcação de ocorrências 
         - [ ] vetor auxiliar para contagem de ocorrências
+- [ ] matrizes
+    
