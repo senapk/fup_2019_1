@@ -1,0 +1,8 @@
+7
+mario 80 m
+joao 43 m
+francisco 12 m
+meire 73 f
+sergio 72 f
+strange 81 m
+mogli 45 m

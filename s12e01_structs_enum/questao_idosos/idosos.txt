@@ -1,0 +1,8 @@
+7
+maria 11
+joao 43
+francisco 12
+meire 71
+sergio 14
+strange 81
+mogli 45

@@ -1,0 +1,6 @@
+5
+maria 99
+strange 81
+joao 43
+meire 71
+sergio 14
