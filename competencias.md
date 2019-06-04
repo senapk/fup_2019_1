@@ -21,12 +21,12 @@
         - [x] int, float, char
         - [x] bool (stdbool.h)
             - [x] representação de booleano com inteiro
-        - [ ] structs
-        - [ ] enum
-        - [ ] ponteiros
-        - [ ] char
-            - [ ] apresentação da tabela asc
-        - [ ] strings
+        - [x] structs
+        - [x] enum
+        - [x] ponteiros
+        - [x] char
+            - [x] apresentação da tabela asc
+        - [x] strings
     - [x] utilizando typedef para mostrar o tamanho dos elementos em bytes
 - [x] entrada e saída
     - [x] fazer print formatado
@@ -58,7 +58,7 @@
         - [x] `for` com mais de uma variável e com diferentes incrementos (jogo concentração)
         - [x] técnicas de busca e contagem
         - [x] técnica do booleano de controle (é primo)
-- [ ] funções
+- [x] funções
     - [x] entendimento de parâmetros e tipo de retorno
     - [X] visualização da pilha de execução e dos saltos entre funções usando debug
     - [x] uso de protótipos
@@ -75,11 +75,33 @@
         - [x] encontrar mínimo em intervalo
         - [x] encontrar posição (valor ou mínimo)
         - [x] contar ocorrências em intervalo
-    - [ ] técnicas
+    - [x] técnicas
         - [x] ordenação
-        - [ ] busca binária
-        - [ ] vetor auxiliar para filtrar elementos
-        - [ ] vetor auxiliar para marcação de ocorrências 
-        - [ ] vetor auxiliar para contagem de ocorrências
-- [ ] matrizes
+        - [x] busca binária
+        - [x] vetor auxiliar para filtrar elementos
+        - [x] vetor auxiliar para marcação de ocorrências 
+        - [x] vetor auxiliar para contagem de ocorrências
+- [x] matrizes
+    - [ ] Criando vetores bidimensionais
+    - [ ] Inicialização Inline
+    - [ ] Percorrendo e imprimindo
+    - [ ] Lendo e imprimindo matrizes de caracteres
+- [ ] strings
+    - [ ] atribuição, alocação
+    - [ ] diferença entre `const char * ptr` e `char vet[]`
+    - [ ] chars
+        - [ ] is_letter, isupper, isalpha, isdigit, toupper
+        - [ ] método da implementação em vetor para busca
+        - [ ] método da busca no intervalo
+    - [ ] strlen, strcat, strcmp, strcpy
+    - [ ] fgets, __strtok_r
+    - [ ] sscanf, sprint
+    - [ ] converter usando atoi, itoa, strtoll
+- [ ] arquivos
+    - [ ] redirect no bash usando < e >
+    - [ ] ler direto de arquivo com FILE * 
+    - [ ] escrever em arquivo
+    - [ ] usar arquivo binário
+        - [ ] dados e structs
+        - [ ] vetores
     
