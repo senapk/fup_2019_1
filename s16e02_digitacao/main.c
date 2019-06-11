@@ -53,9 +53,7 @@ int main(){
         for(int i = 0; i < vet_size; i++){
             sh_color_load('w');
             sh_grid_cplot(vet[i].y, vet[i].x);
-            char texto[2];
-            texto[0] = vet[i].value;
-            texto[1] = '\0';
+            char texto[] = {vet[i].value, '\0'};
             sh_color_load('b');
             sh_grid_tplot(vet[i].y, vet[i].x, texto);
         }
