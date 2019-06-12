@@ -155,6 +155,10 @@ bool sh_timer(int * timer, int time);
 //if a SDL_MOUSEBUTTONDOWN was found, returns sh_EVLEFTCLICK == 2 or sh_EVRIGHTCLICK == 3
 int sh_input_get();
 
+//fills the event with the return of the sh_input_get()
+//returns true if has happened any event
+bool sh_input_poll(int * event);
+
 //receive a SDLK_Key returns if the key is pressed
 bool sh_input_is_key_pressed(int key);
 
@@ -345,6 +349,11 @@ int sh_input_get(){
         }
     }
     return 0;
+}
+
+bool sh_input_poll(int * event){
+    *event = sh_input_get();
+    return (*event) != 0;
 }
 
 void sh_init(int width, int height){

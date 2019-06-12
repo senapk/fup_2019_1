@@ -26,7 +26,7 @@ int main(){
     int ev;
     bool is_open = true;
     while(is_open){
-        while((ev = sh_input_get()) != 0){
+        while(sh_input_poll(&ev)){
             if(ev == sh_EVQUIT)
                 is_open = false;
             for(int i = 0; i < vet_size; i++){
