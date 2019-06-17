@@ -1,50 +1,45 @@
 #define SH_FULL
 #include "sh.h"
 //L, LU, U, UR, R, RD, D, DL
-#define gercolv(c)  {c - 1, c - 1, c    , c + 1, c + 1, c + 1, c    , c - 1};
-#define gerlinv(l)  {l    , l - 1, l - 1, l - 1, l    , l + 1, l + 1, l + 1};
+typedef struct{
+    int l, c;
+}LC;
+#define get_neib(l, c) {{l+0,c-1},{l-1,c-1},{l-1,c+0},{l-1,c+1},{l+0,c+1},{l+1,c+1},{l+1,c+0},{l+1,c-1}}
 
 int contar_vizinhos(int nl, int nc, bool mat[nl][nc], int l, int c){
-    int vc[] = gercolv(c);
-    int vl[] = gerlinv(l);
+    LC neib[] = get_neib(l, c);
     int cont = 0;
     for(int i = 0; i < 8; i++){
-        if((vl[i] < 0) || (vl[i] >= nl) || (vc[i] < 0) || (vc[i] >= nl))
+        if((neib[i].l < 0) || (neib[i].l >= nl) || (neib[i].c < 0) || (neib[i].c >= nc))
             continue;
-        if(mat[vl[i]][vc[i]])
+        if(mat[neib[i].l][neib[i].c]){
+            printf("%d %d\n", neib[i].l, neib[i].c);
             cont++;
+        }
     }
     return cont;
 }
 
 void live_or_die(int nl, int nc, bool mat[nl][nc], bool nova[nl][nc], int l, int c){
     int cont = contar_vizinhos(nl, nc, mat, l, c);
-    if((mat[l][c] == false) && (cont == 3)){
-        nova[l][c] = true;
-        return;
-    }
-    if((mat[l][c] == true) && ((cont < 2) || (cont > 3))){
-        nova[l][c] = false;
-        return;
-    }
     nova[l][c] = mat[l][c];
+    if((mat[l][c] == false) && (cont == 3))
+        nova[l][c] = true;
+    else if((mat[l][c] == true) && ((cont < 2) || (cont > 3)))
+        nova[l][c] = false;
 }
 
 void put_glider(int nl, int nc, bool mat[nl][nc], int l, int c){
-    mat[l + 0][c + 1] = true;
-    mat[l + 1][c + 2] = true;
-    mat[l + 2][c + 0] = true;
-    mat[l + 2][c + 1] = true;
-    mat[l + 2][c + 2] = true;
+    LC glider[] = {{0, 1}, {1, 2}, {2, 0}, {2, 1}, {2, 2}};
+    for(int i = 0; i < 5; i++)
+        mat[l + glider[i].l][c + glider[i].c] = true;
 }
 
 void print_mat(int nl, int nc, bool mat[nl][nc]){
     for(int l = 0; l < nl; l++){
         for(int c = 0; c < nc; c++){
-            if(mat[l][c])
-                sh_color_load('b');
-            else
-                sh_color_load('w');
+            char color = mat[l][c] ? 'b' : 'w';
+            sh_color_load(color);
             sh_grid_splot(l, c);
         }
     }
@@ -70,15 +65,11 @@ int main(){
         for(int c = 0; c < nc; c++)
             mat[l][c] = false;
     put_glider(nl, nc, mat, 1, 1);
-    put_glider(nl, nc, mat, 8, 1);
-
     int timer = 0;
-    while(true){
-        char c = sh_input_get();
-        if (c == sh_EVQUIT)
-            break;
-        if(sh_timer(&timer, 200))
-            nova_geracao(nl, nc, mat);
+    while(sh_input_get() != sh_EVQUIT){
+        if(!sh_timer(&timer, 200))
+            continue;
+        nova_geracao(nl, nc, mat);
         sh_color_load('k');
         sh_clear();
         print_mat(nl, nc, mat);
